@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <title>To Do app</title>
 </head>
-<body>
-    <div>
-        <form>
-            <input type="text" id="text"><button id="add" type="button" onclick={addTasks()}>Add</button>
-        </form>
-        <div>
-            <ul id="lists">
-            </ul>
+<body class="body">
+    <div id="container">
+        <input type="text" id="text"><button id="add" type="button" onclick={addTasks()}>Add</button>
+    </div>
+    <div class="Newtodos">
+        <div class="NewtodosCont">
+            <div id="banner"> Israels Todo list</div>
+        </div>
+        <ul id="lists">
+        </ul>
+        <div class="bottom">
+            
         </div>
     </div>
     <script src="./index.js"></script>

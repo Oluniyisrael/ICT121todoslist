@@ -1,0 +1,128 @@
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    background-color: blue;
+}
+#container{
+    width: 80%;
+    /* height: 80em; */ 
+    background-color: aliceblue;
+    display: flex;
+    margin: 20px 0;
+    border-radius: 20px;
+    height: 50px;
+
+
+    /* background-color: yellow; */
+}
+#container input{
+    width: 90%;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+/* #container button:hover{
+    
+} */
+
+#container button{
+    cursor: pointer;
+    width: 100px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    /* border-style: inherit; */
+    background-color: rgb(174, 255, 0);
+}
+.NewtodosCont {
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: white;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: tahoma;
+
+}
+.Newtodos {
+    /* padding: 1em; */
+    border-radius: 20px;
+    width: 80%;
+    height: 35em;
+    background: white;
+    overflow-y: scroll;
+}
+#lists {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 1em;
+    gap: 10px;
+}
+.li{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: rebeccapurple;
+    color: azure;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.delete{
+    font-size: 20px;
+    border: none;
+    height: 35px;
+    background: black;
+    color: red;
+    padding: 5px;
+    transition: 400ms;
+    cursor: pointer;
+    width: 35px;
+}
+.delete:hover{
+    background: red;
+    color: white;
+    
+}
+.bottom {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    height: 20px;
+    background-color: white;
+}
+.Newtodos::-webkit-scrollbar {
+    width: 20px;
+    height: 10px;
+    background: yellow;
+    border-radius: 10px;
+}
+.Newtodos::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #e0d9bc;
+    /* background: linear-gradient(left, #4A4A4A, #404040); */
+    box-shadow: inset 0 0 1px 1px #191919;
+}
+.Newtodos::-webkit-scrollbar-track {
+    border-radius: 10px;
+    /* background: linear-gradient(left, #212121, #323232); */
+    /* box-shadow: 0 0 1px 1px #111; */
+    border: 1px solid black;
+}
